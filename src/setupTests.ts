@@ -5,8 +5,10 @@ import "@testing-library/jest-dom/vitest"
 window.matchMedia = window.matchMedia || (() => {
     return {
         matches: false,
+        // @ts-ignore
         addEventListener: (type, listener) => {
         },
+        // @ts-ignore
         removeEventListener: (type, listener) => {
         }
     };
