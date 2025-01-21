@@ -1,0 +1,8 @@
+.item {
+    color: #fff !important;
+    cursor: pointer;
+}
+
+.itemActive span {
+    text-decoration: line-through;
+}

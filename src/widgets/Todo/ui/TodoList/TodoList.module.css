@@ -1,0 +1,10 @@
+.list {
+    max-width: 500px;
+    width: 100%;
+}
+
+.list__wrapper {
+    max-height: 300px;
+    overflow-y: auto;
+    margin-top: 20px;
+}
